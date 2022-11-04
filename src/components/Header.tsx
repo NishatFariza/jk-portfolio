@@ -3,25 +3,25 @@ import React from 'react'
 
 const Header = () => {
   return (
-      <div>
+      <div className='flex justify-between items-center'>
           <div>
               <h3>Jk</h3>
           </div>
           <div>
               <Link href="">
-                <a>About</a>
+                About
               </Link>
               <Link href="">
-                <a>Skill</a>
+                Skill
               </Link>
               <Link href="">
-                <a>Portfolio</a>
+                Portfolio
               </Link>
               <Link href="">
-                <a>Contact</a>
+                Contact
               </Link>
               <Link href="">
-                <a>Blog</a>
+                Blog
               </Link>
           </div>
      </div>
