@@ -5,6 +5,8 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Skill from '../components/Skill'
+import Portfolio from '../components/Portfolio'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skill />
+      <Portfolio />
+      <Contact />
     </div>
   )
 }
