@@ -14,6 +14,11 @@ const Header = () => {
         <Link href="">Contact</Link>
         <Link href="">Blog</Link>
       </div>
+      <div>
+        <button>
+          Resume
+        </button>
+      </div>
     </div>
   );
 }
