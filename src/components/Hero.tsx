@@ -6,7 +6,10 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current!, {
-      strings: ["Hello, I am Rayhan", "I love to watch tutorial!!"],
+      strings: [
+        "JJ Krasnick",
+        "I love to learn Computer Science!!",
+      ],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 100,
@@ -21,8 +24,16 @@ const Hero = () => {
   });
 
   return (
-    <div className="text-3xl font-semibold">
-      <span ref={typedRef}></span>
+    <div className="h-screen flex flex-col justify-center items-start">
+      <span>Hello, I am</span>
+      <div className="text-5xl font-semibold mb-3">
+        <span ref={typedRef}></span>
+      </div>
+      <div className="flex">
+        <li>Software Engineer</li>
+        <li>Machine Learning</li>
+        <li>Data Science</li>
+      </div>
     </div>
   );
 };
