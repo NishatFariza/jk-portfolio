@@ -8,6 +8,7 @@ import Skill from '../components/Skill'
 import Portfolio from '../components/Portfolio'
 import Contact from '../components/Contact'
 import Blog from '../components/Blog'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Portfolio />
       <Contact />
       <Blog />
+      <Footer />
     </div>
   )
 }
