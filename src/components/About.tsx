@@ -14,7 +14,7 @@ const About = () => {
             Get Resume
           </button>
           <button className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl ">
-            About Me
+            My Skill
           </button>
         </div>
       </div>

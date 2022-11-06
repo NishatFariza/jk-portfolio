@@ -13,14 +13,16 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div className="bg-[#111A28] text-white">
-      <Header />
-      <Hero />
-      <About />
-      <Skill />
-      <Portfolio />
-      <Contact />
-      <Blog />
-      <Footer />
+      <div className='px-28'>
+        <Header />
+        <Hero />
+        <About />
+        <Skill />
+        <Portfolio />
+        <Contact />
+        <Blog />
+      </div>
+        <Footer />
     </div>
   );
 }
