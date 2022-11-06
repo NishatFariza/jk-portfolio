@@ -26,17 +26,25 @@ const Hero = () => {
   return (
     <div className="h-screen flex flex-col justify-center items-start ml-8">
       <span className="text-[#00cf5d] text-2xl">Hello! I am</span>
-      <div className="text-5xl font-semibold mb-3">
+      <div className="text-7xl font-semibold mb-5 font-serif">
         <span ref={typedRef}></span>
       </div>
       <div className="my-3">
-        <p className="text-2xl font-semibold text-[#00cf5d]">
+        <p className="text-2xl font-semibold text-[#00cf5d] mb-2">
           Full Stack Engineer
         </p>
         <div className="flex gap-3">
           <li className="list-none">Software Engineer</li>
           <li>Machine Learning</li>
           <li>Data Science</li>
+        </div>
+        <div className="mt-4 flex gap-4">
+          <button className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl ">
+            Get Resume
+          </button>
+          <button className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl ">
+            About Me
+          </button>
         </div>
       </div>
     </div>

@@ -15,7 +15,8 @@ const Header = () => {
         <Link href="">Blog</Link>
       </div>
       <div>
-        <button className="border-2 border-green-400 py-3 px-5 rounded-md text-white text-xl flex gap-2">
+        <button className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl flex gap-2">
+          <span>Resume</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -30,7 +31,6 @@ const Header = () => {
               d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
             />
           </svg>
-          <span>Resume</span>
         </button>
       </div>
     </div>
