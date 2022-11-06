@@ -8,7 +8,7 @@ const Hero = () => {
     const typed = new Typed(typedRef.current!, {
       strings: [
         "JJ Krasnick",
-        "I love to find new solutions through machine learning!",
+        "I love to find new solutions", "Through machine learning!",
       ],
       startDelay: 300,
       typeSpeed: 100,

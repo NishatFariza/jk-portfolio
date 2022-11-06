@@ -8,7 +8,7 @@ const Footer = () => {
           Thanks
         </button>
         <button className="bg-[#111A28]  p-2 border-b-2  border-green-600 rounded-md">
-          Thanks
+          Cortés
         </button>
       </div>
       <div className="flex justify-between items-center gap-4">
