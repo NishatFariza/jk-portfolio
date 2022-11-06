@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center bg-[#111A28] h-[40px] px-8 py-8">
+    <div className="flex justify-between items-center bg-[#111A28] h-[40px] px-8 py-12">
       <div>
         <h3 className="text-3xl text-[#00cf5d] font-bold">Jk</h3>
       </div>
