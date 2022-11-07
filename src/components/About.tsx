@@ -5,11 +5,7 @@ const About = () => {
     <div id="about" className="flex justify-around">
       <div className="w-6/12 flex flex-col justify-center ">
         <p>
-          Second-year computer science student, aspiring SWE or Data Scientist,
-          with one year of experience performing Python, SQL, and R, in software
-          engineering.
-          Second-year computer science student, aspiring SWE or Data Scientist,
-          with one year of experience performing Python, SQL, and R, in software
+          Second-year computer science student, aspiring SWE or Data Scientist, with one year of experience performing Python, SQL, and R, in software engineering. Second-year computer science student, aspiring SWE or Data Scientist, with one year of experience performing Python, SQL, and R, in software
           engineering.
         </p>
         <div className="mt-4 flex gap-4">
