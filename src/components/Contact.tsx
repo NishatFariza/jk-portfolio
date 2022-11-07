@@ -15,28 +15,28 @@ const Contact = () => {
       </div>
       <div className="w-5/12">
         <div className="mb-3">
-          <h4 className="text-3xl">Email</h4>
+          <h5 className="text-2xl text-stone-200 font-semibold ">Email</h5>
           <p className="text-slate-400">
             jjkrasnick7@gmail.com{" "}
             <span className="text-green-200">(Recommended)</span>
           </p>
         </div>
         <div className="mb-3">
-          <h4 className="text-3xl">Email</h4>
+          <h5 className="text-2xl text-stone-200 font-semibold">Email</h5>
           <p className="text-slate-400">
             jjkrasnick7@gmail.com{" "}
             <span className="text-green-200">(Recommended)</span>
           </p>
         </div>
         <div className="mb-3">
-          <h4 className="text-3xl">Email</h4>
+          <h5 className="text-2xl text-stone-200 font-semibold">Email</h5>
           <p className="text-slate-400">
             jjkrasnick7@gmail.com{" "}
             <span className="text-green-200">(Recommended)</span>
           </p>
         </div>
         <div className="mb-3">
-          <h4 className="text-3xl">Email</h4>
+          <h5 className="text-2xl text-stone-200 font-semibold">Email</h5>
           <p className="text-slate-400">
             jjkrasnick7@gmail.com{" "}
             <span className="text-green-200">(Recommended)</span>
