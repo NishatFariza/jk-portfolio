@@ -46,7 +46,7 @@ const Footer = () => {
           <span>Fork</span>
         </p>
         <p>BY ME</p>
-        <button className="p-2 bg-green-600 rounded-md">
+        <a href="#hero" className="p-2 bg-green-600 rounded-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -61,7 +61,7 @@ const Footer = () => {
               d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
             />
           </svg>
-        </button>
+        </a>
       </div>
     </div>
   );
