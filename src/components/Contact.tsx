@@ -17,8 +17,8 @@ const Contact = () => {
         <div className="mb-3">
           <h5 className="text-2xl text-stone-200 font-semibold ">Email</h5>
           <p className="text-slate-400">
-            jjkrasnick23@gmail.com{" "}
-            <span className="text-green-200">(Recommended)</span>
+            jjkrasnick23@gmail.com
+            {/* <span className="text-green-200">(Recommended)</span> */}
           </p>
         </div>
         <div className="mb-3">
