@@ -17,31 +17,26 @@ const Contact = () => {
         <div className="mb-3">
           <h5 className="text-2xl text-stone-200 font-semibold ">Email</h5>
           <p className="text-slate-400">
-            jjkrasnick7@gmail.com{" "}
+            jjkrasnick23@gmail.com{" "}
             <span className="text-green-200">(Recommended)</span>
           </p>
         </div>
         <div className="mb-3">
-          <h5 className="text-2xl text-stone-200 font-semibold">Email</h5>
-          <p className="text-slate-400">
-            jjkrasnick7@gmail.com{" "}
-            <span className="text-green-200">(Recommended)</span>
-          </p>
+          <h5 className="text-2xl text-stone-200 font-semibold">LinkedIn</h5>
+          <a
+            href="https://www.linkedin.com/in/jjkrasnick/"
+            className="text-slate-400"
+          >
+            jjkrasnick
+          </a>
         </div>
         <div className="mb-3">
-          <h5 className="text-2xl text-stone-200 font-semibold">Email</h5>
-          <p className="text-slate-400">
-            jjkrasnick7@gmail.com{" "}
-            <span className="text-green-200">(Recommended)</span>
-          </p>
+          <h5 className="text-2xl text-stone-200 font-semibold">GitHub</h5>
+          <a href="https://github.com/jjkrasnick" className="text-slate-400">
+            jjkrasnick
+          </a>
         </div>
-        <div className="mb-3">
-          <h5 className="text-2xl text-stone-200 font-semibold">Email</h5>
-          <p className="text-slate-400">
-            jjkrasnick7@gmail.com{" "}
-            <span className="text-green-200">(Recommended)</span>
-          </p>
-        </div>
+        
       </div>
     </div>
   );
