@@ -42,9 +42,9 @@ const Hero = () => {
           <button className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl ">
             Get Resume
           </button>
-          <button className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl ">
+          <a href="#about" className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl ">
             About Me
-          </button>
+          </a>
         </div>
       </div>
     </div>

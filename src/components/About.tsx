@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex justify-around'>
-      <div className='w-6/12 flex flex-col justify-center '>
+    <div id="about" className="flex justify-around">
+      <div className="w-6/12 flex flex-col justify-center ">
         <p>
           Second-year computer science student, aspiring SWE or Data Scientist,
           with one year of experience performing Python, SQL, and R, in software
@@ -18,12 +18,12 @@ const About = () => {
           </button>
         </div>
       </div>
- 
-        <img className='rounded-md'
-          src="https://avatars.githubusercontent.com/u/109563164?v=4"
-          alt="jj-profile"
-        />
-   
+
+      <img
+        className="rounded-md"
+        src="https://avatars.githubusercontent.com/u/109563164?v=4"
+        alt="jj-profile"
+      />
     </div>
   );
 }
