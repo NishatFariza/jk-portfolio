@@ -2,7 +2,7 @@ import React from "react";
 
 const Panel = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-start">
       <div className="flex flex-col justify-center items-center gap-2 w-4/12">
         <a href="">
           <svg
