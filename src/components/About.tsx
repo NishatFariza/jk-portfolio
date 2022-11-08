@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutPanel from './AboutPanel';
 
 const About = () => {
   return (
-    <div id="about" className="flex justify-around">
-      <div className="w-6/12 flex flex-col justify-center ">
+    <div id="about" className="flex justify-between">
+      <div className="w-5/12 flex flex-col justify-center ">
         <p>
           Second-year computer science student, aspiring SWE or Data Scientist,
           with one year of experience performing Python, SQL, and R, in software
@@ -28,6 +29,7 @@ const About = () => {
           alt="jj-profile"
         />
       </div>
+      <AboutPanel />
     </div>
   );
 }
