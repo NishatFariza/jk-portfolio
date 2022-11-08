@@ -5,14 +5,14 @@ const About = () => {
   return (
     <div id="about" className="grid grid-cols-2 gap-3 relative">
       <div className=" flex flex-col justify-center ">
-        <p>
+        <p className='leading-loose'>
           Second-year computer science student, aspiring SWE or Data Scientist,
           with one year of experience performing Python, SQL, and R, in software
           engineering. Second-year computer science student, aspiring SWE or
           Data Scientist, with one year of experience performing Python, SQL,
           and R, in software engineering.
         </p>
-        <div className="mt-4 flex gap-4">
+        <div className="mt-8 flex gap-4">
           <a
             href="/myResume/resume.pdf"
             download={true}

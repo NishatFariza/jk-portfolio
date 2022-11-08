@@ -3,8 +3,9 @@ import HobbyPanel from './HobbyPanel';
 
 const MyHobby = () => {
   return (
-    <div className="flex my-20 relative w-full">
-      <div className="grid grid-cols-4 gap-4">
+    <div className="my-20 ">
+      <HobbyPanel />
+      <div className="grid grid-cols-4 gap-4 w-full">
         <div className="py-12 px-6 bg-[#1D293A] ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +234,6 @@ const MyHobby = () => {
           <p className="text-[##DCDDDF]">Video Gaming</p>
         </div>
       </div>
-      <HobbyPanel />
     </div>
   );
 }
