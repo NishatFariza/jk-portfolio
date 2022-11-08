@@ -3,17 +3,17 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center bg-[#111A28] h-[40px] px-8 py-16">
+    <div className="flex justify-between items-center bg-[#111A28] h-[120px] px-8">
       
       <div className=''>
         <img className='' src="/images/logo.png" alt="" />
       </div>
       <div className="text-white flex gap-4 text-xl">
-        <Link href="">About</Link>
-        <Link href="">Skill</Link>
-        <Link href="">Portfolio</Link>
-        <Link href="">Contact</Link>
-        <Link href="">Blog</Link>
+        <Link href="#about">About</Link>
+        <Link href="#skill">Skill</Link>
+        <Link href="#portfolio">Portfolio</Link>
+        <Link href="#contact">Contact</Link>
+        <Link href="#blog">Blog</Link>
       </div>
       <div>
         <button className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl flex gap-2">

@@ -27,7 +27,7 @@ const Hero = () => {
   });
 
   return (
-    <div className="flex justify-center h-screen ">
+    <div className="relative flex justify-center h-[calc(100vh-120px)] ">
       <Panel />
       <div
         id="hero"

@@ -3,8 +3,8 @@ import AboutPanel from './AboutPanel';
 
 const About = () => {
   return (
-    <div id="about" className="flex justify-between">
-      <div className="w-5/12 flex flex-col justify-center ">
+    <div id="about" className="grid grid-cols-2 gap-3 relative">
+      <div className=" flex flex-col justify-center ">
         <p>
           Second-year computer science student, aspiring SWE or Data Scientist,
           with one year of experience performing Python, SQL, and R, in software
@@ -22,7 +22,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className='w-4/12'>
+      <div className=''>
         <img
           className="rounded-md"
           src="https://avatars.githubusercontent.com/u/109563164?v=4"
