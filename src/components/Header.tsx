@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import Panel from './panel'
 
 const Header = () => {
   return (
     <div className="flex justify-between items-center bg-[#111A28] h-[40px] px-8 py-16">
+      
       <div className=''>
         <img className='' src="/images/logo.png" alt="" />
       </div>
