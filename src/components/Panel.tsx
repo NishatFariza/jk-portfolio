@@ -2,11 +2,11 @@ import React from "react";
 
 const Panel = () => {
   return (
-    <div className="flex justify-start absolute top-[22%] left-0">
-      <div className="flex flex-col justify-center items-center gap-2 w-4/12">
+    <div className="flex justify-start absolute top-[20%] left-0">
+      <div className="flex flex-col justify-center items-center gap-3 w-4/12">
         <a href="">
           <svg
-            className="w-6 h-6"
+            className="w-4 h-4"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@ const Panel = () => {
         </a>
         <a href="">
           <svg
-            className="w-6 h-6"
+            className="w-4 h-4"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const Panel = () => {
         </a>
         <a href="">
           <svg
-            className="w-6 h-6"
+            className="w-4 h-4"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
