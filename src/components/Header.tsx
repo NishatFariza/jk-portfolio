@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import Panel from './panel'
 
 const Header = () => {
   return (

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import Panel from "./panel";
+import Panel from "./Panel";
+
 
 const Hero = () => {
   const typedRef = useRef(null);
@@ -9,7 +10,8 @@ const Hero = () => {
     const typed = new Typed(typedRef.current!, {
       strings: [
         "JJ Krasnick",
-        "I love to find new solutions", "Through machine learning!",
+        "I love to find new solutions",
+        "Through machine learning!",
       ],
       startDelay: 300,
       typeSpeed: 100,
