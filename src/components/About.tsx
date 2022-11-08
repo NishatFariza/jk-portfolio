@@ -5,7 +5,8 @@ const About = () => {
   return (
     <div id="about" className="grid grid-cols-2 gap-3 relative">
       <div className=" flex flex-col justify-center ">
-        <p className='leading-loose'>
+      <AboutPanel />
+        <p className="leading-loose">
           Second-year computer science student, aspiring SWE or Data Scientist,
           with one year of experience performing Python, SQL, and R, in software
           engineering. Second-year computer science student, aspiring SWE or
@@ -26,14 +27,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className="w-96">
         <img
           className="rounded-md"
           src="https://avatars.githubusercontent.com/u/109563164?v=4"
           alt="jj-profile"
         />
       </div>
-      <AboutPanel />
     </div>
   );
 }
