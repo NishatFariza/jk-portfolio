@@ -31,7 +31,7 @@ const Hero = () => {
       <Panel />
       <div
         id="hero"
-        className=" flex flex-col justify-center items-start ml-8 w-9/12 "
+        className=" flex flex-col justify-center items-start ml-8 w-10/12 "
       >
         <span className="text-[#00cf5d] text-2xl mb-2">Hello! I am</span>
         <div className="text-6xl font-semibold mb-5 font-serif">
