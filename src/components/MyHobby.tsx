@@ -1,8 +1,9 @@
 import React from 'react'
+import HobbyPanel from './HobbyPanel';
 
 const MyHobby = () => {
   return (
-    <div className="grid grid-cols-4 gap-4 my-20">
+    <div className="grid grid-cols-4 gap-4 my-20 w-9/12">
       <div className="py-12 px-6 bg-[#1D293A] ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -38,23 +39,6 @@ const MyHobby = () => {
         <p className="text-[##DCDDDF]">Traveling</p>
       </div>
       <div className="py-12 px-6 bg-[#1D293A]">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="transparent"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="#00CF5D"
-          className="w-16 h-16 mb-4"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
-          />
-        </svg>
-        <p className="text-[##DCDDDF]">Reading</p>
-      </div>
-      <div className="py-12 px-6 bg-[#1D293A]">
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="transparent"
@@ -70,16 +54,61 @@ const MyHobby = () => {
           />
         </svg> */}
         <svg
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 255.228 255.228"
+          fill="#00CF5D"
+          className="w-16 h-16 mb-4"
+          xmlSpace="preserve"
+        >
+          <path
+            d="M232.593,55.115C213.228,27.07,184.101,8.246,150.578,2.11c-7.636-1.398-15.413-2.107-23.114-2.107
+	c-61.542,0-114.266,44.006-125.365,104.636C-10.57,173.842,35.425,240.45,104.628,253.118c7.633,1.397,15.41,2.106,23.113,2.107
+	c0.004,0,0.007,0,0.01,0c61.537,0,114.256-44.004,125.355-104.636C259.244,117.065,251.959,83.158,232.593,55.115z M14.886,106.98
+	C16.928,95.826,20.54,85.3,25.465,75.61c2.16,18.46,8.838,34.284,14.931,48.719c7.016,16.622,13.644,32.321,12.744,49.667
+	c-0.625,12.035-2.679,23.786-6.079,35.068C21.091,183.307,7.817,145.596,14.886,106.98z M127.742,242.225
+	c-6.921,0-13.91-0.638-20.773-1.894c-18.557-3.397-35.254-11.115-49.247-21.922c4.79-13.972,7.617-28.66,8.4-43.739
+	c1.055-20.325-6.471-38.154-13.75-55.396c-8.03-19.022-16.32-38.678-14.32-63.204c21.146-26.481,53.615-43.067,89.411-43.067
+	c6.917,0,13.907,0.637,20.773,1.894c30.108,5.512,56.267,22.418,73.659,47.604c2.749,3.98,5.224,8.093,7.426,12.314
+	c0.037,13.724-20.255,26.056-34.451,30.196c-65.718,19.168-80.629,61.135-81.565,92.964c-0.473,15.966,6.147,32.371,14.67,44.246
+	C127.899,242.222,127.821,242.225,127.742,242.225z M240.32,148.248c-8.982,49.064-48.304,85.998-96.418,92.833
+	c-9.221-9.333-18.079-26.578-17.601-42.721c1.177-40.028,25.473-67.236,72.21-80.868c13.485-3.933,24.854-10.535,32.877-19.092
+	c1.965-2.096,3.681-4.281,5.141-6.51C242.45,109.857,243.821,129.12,240.32,148.248z"
+          />
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+        </svg>
+
+        <p className="text-[##DCDDDF]">Playing Tennis</p>
+      </div>
+      <div className="py-12 px-6 bg-[#1D293A]">
+        <svg
           className="w-16 h-16 mb-4"
           version="1.1"
           id="Layer_1"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          fill="transparent"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="#00CF5D"
-        //   style={{ enableBackground: "new 0 0 512.001 512.001" }}
+          x="0px"
+          y="0px"
+          viewBox="0 0 512.001 512.001"
+          fill="#00CF5D"
           xmlSpace="preserve"
         >
           <g>
@@ -200,8 +229,9 @@ const MyHobby = () => {
           <g></g>
         </svg>
 
-        <p className="text-[##DCDDDF]">Reading</p>
-      </div>
+        <p className="text-[##DCDDDF]">Video Gaming</p>
+          </div>
+          <HobbyPanel />
     </div>
   );
 }
