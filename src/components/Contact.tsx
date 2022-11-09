@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="flex h-96 justify-between items-center">
       <div className="w-6/12">
-        <p className="mb-5">
+        <p className="mb-5 leading-loose">
           I am interested in working with any company that thinks my skill will
           be helpful for them. If you are looking for someone like me, please
           let me know. Or you can just say hi to me.
@@ -36,7 +36,6 @@ const Contact = () => {
             jjkrasnick
           </a>
         </div>
-        
       </div>
     </div>
   );
