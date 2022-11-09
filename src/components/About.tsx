@@ -13,7 +13,7 @@ const About = () => {
           Data Scientist, with one year of experience performing Python, SQL,
           and R, in software engineering.
         </p>
-        <div className="mt-8 flex gap-4">
+        <div className="mt-10 flex gap-4">
           <a
             href="/myResume/resume.pdf"
             download={true}

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 
@@ -5,9 +6,9 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center bg-[#111A28] h-[120px] px-8">
       
-      <div className=''>
-        <img className='' src="/images/logo.png" alt="" />
-      </div>
+      <a href='#'>
+        <img  className='' src="/images/logo.png" alt="" />
+      </a>
       <div className="text-white flex gap-4 text-xl">
         <Link href="#about">About</Link>
         <Link href="#skill">Skill</Link>
