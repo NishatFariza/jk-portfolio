@@ -38,9 +38,16 @@ const Hero = () => {
             Full Stack Engineer
           </p>
           <div className="flex gap-3">
-            <li className="list-none">Software Engineer</li>
-            <li>Machine Learning</li>
-            <li>Data Science</li>
+            <p className="text-xl">Software Engineer</p>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-green-600"></div>
+              <p className="text-xl">Machine Learning</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-3 h-3 rounded-full bg-green-600"></div>
+              <p className="text-xl">Data Science</p>
+            </div>
+           
           </div>
           <div className="mt-4 flex gap-4">
             <button className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl ">
