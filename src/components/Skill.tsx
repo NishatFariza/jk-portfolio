@@ -9,7 +9,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+           
           </div>
           <div
             style={{ width: "90%" }}
@@ -19,7 +19,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+            
           </div>
           <div
             style={{ width: "90%" }}
@@ -29,7 +29,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+            
           </div>
           <div
             style={{ width: "90%" }}
@@ -39,7 +39,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+            
           </div>
           <div
             style={{ width: "90%" }}
@@ -49,7 +49,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+            
           </div>
           <div
             style={{ width: "90%" }}
@@ -59,7 +59,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+            
           </div>
           <div
             style={{ width: "90%" }}
@@ -69,7 +69,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+            
           </div>
           <div
             style={{ width: "90%" }}
@@ -79,7 +79,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+            
           </div>
           <div
             style={{ width: "90%" }}
@@ -89,7 +89,7 @@ const Skill = () => {
         <div className="bg-[#1D293A] rounded-md">
           <div className="flex items-center justify-between px-4 py-4">
             <h4>Web</h4>
-            <span>90%</span>
+           
           </div>
           <div
             style={{ width: "90%" }}
