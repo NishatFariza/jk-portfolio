@@ -8,7 +8,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current!, {
-      strings: ["JJ Krasnick", "I use data to find solutions"],
+      strings: ["JJ Krasnick", "I use data to find solutions!!"],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 100,
