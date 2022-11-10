@@ -3,17 +3,19 @@ import AboutPanel from "./AboutPanel";
 
 const About = () => {
   return (
-    <div id="about" className="grid grid-cols-2 gap-3 relative">
-      <div className=" flex flex-col justify-center ">
+    <div id="about" className="w-8/12 mx-auto ">
+      <div className=" text-center ">
         <AboutPanel />
         <p className="leading-loose">
-          Second-year computer science student, aspiring SWE or Data Scientist,
-          with one year of experience performing Python, SQL, and R, in software
-          engineering. Second-year computer science student, aspiring SWE or
-          Data Scientist, with one year of experience performing Python, SQL,
-          and R, in software engineering.
+          My ambition is to one day help companies become more efficient in
+          providing their products to consumers through use of data and
+          developed code.
+          <span className="leading-loose">
+            All my projects are built from the ground up, from planning and
+            designing to solving real-life problems with my code.
+          </span>
         </p>
-        <div className="mt-10 flex gap-4">
+        <div className="mt-10 flex justify-center gap-4">
           <a
             href="/myResume/resume.pdf"
             download={true}
