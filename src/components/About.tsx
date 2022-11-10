@@ -1,11 +1,11 @@
-import React from 'react'
-import AboutPanel from './AboutPanel';
+import React from "react";
+import AboutPanel from "./AboutPanel";
 
 const About = () => {
   return (
     <div id="about" className="grid grid-cols-2 gap-3 relative">
       <div className=" flex flex-col justify-center ">
-      <AboutPanel />
+        <AboutPanel />
         <p className="leading-loose">
           Second-year computer science student, aspiring SWE or Data Scientist,
           with one year of experience performing Python, SQL, and R, in software
@@ -26,16 +26,8 @@ const About = () => {
           </button>
         </div>
       </div>
-
-      <div className="w-96">
-        <img
-          className="rounded-md"
-          src="https://avatars.githubusercontent.com/u/109563164?v=4"
-          alt="jj-profile"
-        />
-      </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;
