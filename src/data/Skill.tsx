@@ -8,7 +8,14 @@ export const skills = {
     { name: "MongoDB", percent: 90 },
     { name: "MySQL", percent: 85 },
   ],
-  Others: [
+  Programming: [
+    { name: "Python", percent: 90 },
+    { name: "C", percent: 90 },
+    { name: "C++", percent: 75 },
+    { name: "Python", percent: 50 },
+    { name: "Java", percent: 50 },
+  ],
+  Frameworks: [
     { name: "React Native", percent: 85 },
     { name: "Electron JS", percent: 90 },
     { name: "Johnny Five", percent: 75 },
@@ -19,13 +26,6 @@ export const skills = {
     { name: "Mocha", percent: 65 },
     { name: "Cypress", percent: 65 },
     { name: "SVG", percent: 80 },
-  ],
-  Programming: [
-    { name: "Python", percent: 90 },
-    { name: "C", percent: 90 },
-    { name: "C++", percent: 75 },
-    { name: "Python", percent: 50 },
-    { name: "Java", percent: 50 },
   ],
   Tools: [
     { name: "Git", percent: 90 },
