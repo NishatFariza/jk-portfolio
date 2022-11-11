@@ -43,8 +43,9 @@ const Skill: React.FC<SkillProps> = ({name}) => {
           ))}
         </div>
         <div className="grid grid-cols-3 gap-6 mt-4">
-          {/* <SkillName /> */}
-          <pre>{JSON.stringify(skills[selectedSkill], undefined, 2)}</pre>
+          {/* {skills[selectedSkill].map((skill) => (
+            <Skill key={1} name={skill.name} />
+          ))} */}
         </div>
       </div>
     </div>
