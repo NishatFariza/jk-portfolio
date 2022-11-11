@@ -21,7 +21,7 @@ const SkillName: React.FC<SkillProps> = ({ name }) => {
   );
 };
 
-const Skill: React.FC<SkillProps> = ({name}) => {
+const Skill  = () => {
   const [selectedSkill, setSelectedSkill] = useState("Web");
   return (
     <div id="skill" className="py-20">

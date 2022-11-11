@@ -9,7 +9,6 @@ import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import Blog from "./Blog";
 import Footer from "../components/Footer";
-import MyHobby from "../components/MyHobby";
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
         <Hero />
         <About />
         <Skill />
-        {/* <MyHobby /> */}
         <Portfolio />
         <Contact />
       </div>
