@@ -1,3 +1,11 @@
+interface SkillType {
+  name: string;
+  percent: number;
+}
+interface SkillListType {
+  [key: string]: SkillType[];
+}
+
 export const skills = {
   Web: [
     { name: "React", percent: 90 },
