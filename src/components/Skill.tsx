@@ -18,7 +18,7 @@ const SkillName = () => {
 
 const Skill = () => {
   return (
-    <div className="py-20">
+    <div id="skill" className="py-20">
       <SkillPanel />
       <div className="">
         <div className="flex gap-3 mt-7">

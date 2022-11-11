@@ -18,9 +18,9 @@ const About = () => {
           >
             Get Resume
           </a>
-          <button className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl ">
+          <a href="#skill" className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl ">
             My Skill
-          </button>
+          </a>
         </div>
       </div>
     </div>
