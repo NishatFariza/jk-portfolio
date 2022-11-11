@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Panel from "./Panel";
 
-
 const Hero = () => {
   const typedRef = useRef(null);
 
@@ -47,12 +46,14 @@ const Hero = () => {
               <div className="w-3 h-3 rounded-full bg-green-600"></div>
               <p className="text-xl">Data Science</p>
             </div>
-           
           </div>
           <div className="mt-4 flex gap-4">
-            <button className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl ">
+            <a
+              href="/myResume/resume.pdf" target={"_blank"}
+              className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl "
+            >
               Get Resume
-            </button>
+            </a>
             <a
               href="#about"
               className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl "
