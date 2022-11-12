@@ -3,7 +3,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "Gradienta",
-      image: require("./image/gradienta.jpg"),
+      // image: require("./image/gradienta.jpg"),
       description:
         "A Collection of free Multicolor CSS, JPG, PNG, SVG Gradients with a Gradienta Editor",
       demo: "https://gradienta.io",
@@ -12,7 +12,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "DevSonket",
-      image: require("./image/devsonket.jpg"),
+      // image: require("./image/devsonket.jpg"),
       description:
         "A Collection of Bengali Cheatsheets for the developers, completely open-source",
       demo: "https://devsonket.com",
@@ -22,7 +22,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "js.zonayed.me",
-      image: require("./image/js.zonayed.me.png"),
+      // image: require("./image/js.zonayed.me.png"),
       description:
         "Learn Practical use case of JavaScript in your everyday life, entirely in Bengali",
       demo: "https://zonayed.js.org",
@@ -88,7 +88,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "DevTop",
-      image: require("./image/devtop.jpg"),
+      // image: require("./image/devtop.jpg"),
       description:
         "Cross-platform desktop tool for the developers, does some useful job and make life easy",
       demo: "https://zonayedpca.github.io/DevTop",
@@ -98,7 +98,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "Biswasi",
-      image: require("./image/biswasi.jpg"),
+      // image: require("./image/biswasi.jpg"),
       description:
         "Cross-platform Mobile app for the Muslim people to remind them about their prayer",
       demo: "https://play.google.com/store/apps/details?id=com.biswasi",
@@ -107,7 +107,7 @@ export const portfolios = {
     {
       type: "featured",
       name: "AlgoDS.js",
-      image: require("./image/algods.jpg"),
+      // image: require("./image/algods.jpg"),
       description:
         "A Collection of most used algorithms and data structures implemented using JavaScript",
       source: "https://github.com/zonayedpca/AlgoDS.js",
