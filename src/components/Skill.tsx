@@ -43,9 +43,9 @@ const Skill  = () => {
           ))}
         </div>
         <div className="grid grid-cols-3 gap-6 mt-4">
-          {/* {skills[selectedSkill].map((skill) => (
-            <Skill key={1} name={skill.name} />
-          ))} */}
+          {skills[selectedSkill].map((skill, i) => (
+            <SkillName key={i} name={ skill.name} />
+          ))}
         </div>
       </div>
     </div>
