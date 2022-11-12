@@ -6,7 +6,7 @@ interface PortfolioProps {
   name: string;
 }
 
-const PorfolioName: React.FC<PortfolioProps> = ({ name }) => {
+const PortfolioName: React.FC<PortfolioProps> = ({ name }) => {
   return (
     <div className="bg-[#1D293A] rounded-md">
       <div className="flex items-center justify-between px-4 py-4">
