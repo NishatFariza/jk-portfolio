@@ -18,10 +18,14 @@ export const skills: SkillListType = {
   ],
   Programming: [
     { name: "Python" },
-    { name: "C" },
-    { name: "C++" },
-    { name: "Python" },
     { name: "Java" },
+    { name: "Javascript" },
+    { name: "R" },
+    { name: "C" },
+    { name: "C#" },
+    { name: "C++" },
+    { name: "Golang" },
+    { name: "Ruby" },
   ],
   Frameworks: [
     { name: "React Native"},

@@ -71,7 +71,7 @@ const Header = () => {
           </svg>
         </a>
       </div>
-      <div className="">
+      {/* <div className="">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -87,7 +87,7 @@ const Header = () => {
           />
         </svg>
       </div>
-      <MobileMenu/>
+      <MobileMenu/> */}
     </div>
   );
 }
