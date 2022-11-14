@@ -19,7 +19,7 @@ const PortfolioName: React.FC<PortfolioProps> = ({ name }) => {
 const Portfolio = () => {
   const [selectedPortfolio, setSelectedPortfolio] = useState("Web")
   return (
-    <div>
+    <div id="portfolio">
       <PortfolioPanel />
       <div className="grid grid-cols-3 gap-10">
         <div className="flex gap-3 mt-7">

@@ -28,8 +28,8 @@ const Hero = () => {
         id="hero"
         className=" flex flex-col justify-center items-start w-10/12 "
       >
-        <span className="text-[#00cf5d] text-2xl mb-2">Hello! I am</span>
-        <div className="text-6xl font-semibold mb-5 font-serif">
+        <span className="text-[#00cf5d] md:text-2xl mb-2">Hello! I am</span>
+        <div className="md:text-6xl sm:text-3xl text-xl  font-semibold mb-5 font-serif">
           <span ref={typedRef}></span>
         </div>
         <div className="my-4">
@@ -39,17 +39,18 @@ const Hero = () => {
           <div className="flex gap-3">
             <p className="text-xl">Software Engineer</p>
             <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-green-600"></div>
+              <div className="w-[10px] h-[10px] rounded-full bg-green-600"></div>
               <p className="text-xl">Machine Learning</p>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full bg-green-600"></div>
+              <div className="w-[10px] h-[10px] rounded-full bg-green-600"></div>
               <p className="text-xl">Data Science</p>
             </div>
           </div>
           <div className="mt-4 flex gap-4">
             <a
-              href="/myResume/resume.pdf" target={"_blank"}
+              href="/myResume/resume.pdf"
+              target={"_blank"}
               className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl "
             >
               Get Resume
