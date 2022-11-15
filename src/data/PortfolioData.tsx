@@ -1,14 +1,18 @@
-export const portfolios = {
+interface PortfolioType {
+  name: string;
+  type: string;
+  description: string;
+  demo: string;
+  source: string;
+  tools: string[];
+}
+interface PortfoliolListType {
+  
+  [key: string]: PortfolioType[];
+}
+
+export const portfolios: PortfoliolListType = {
   Web: [
-    {
-      type: "featured",
-      name: "Gradienta",
-      // image: require("./image/gradienta.jpg"),
-      description:
-        "A Collection of free Multicolor CSS, JPG, PNG, SVG Gradients with a Gradienta Editor",
-      demo: "https://gradienta.io",
-      tools: ["gatsby", "netlify", "ga", "forestry"],
-    },
     {
       type: "featured",
       name: "DevSonket",
@@ -87,29 +91,11 @@ export const portfolios = {
   Others: [
     {
       type: "featured",
-      name: "DevTop",
-      // image: require("./image/devtop.jpg"),
-      description:
-        "Cross-platform desktop tool for the developers, does some useful job and make life easy",
-      demo: "https://zonayedpca.github.io/DevTop",
-      source: "https://github.com/zonayedpca/DevTop",
-      tools: ["electron", "react"],
-    },
-    {
-      type: "featured",
-      name: "Biswasi",
-      // image: require("./image/biswasi.jpg"),
-      description:
-        "Cross-platform Mobile app for the Muslim people to remind them about their prayer",
-      demo: "https://play.google.com/store/apps/details?id=com.biswasi",
-      tools: ["react native", "redux"],
-    },
-    {
-      type: "featured",
       name: "AlgoDS.js",
       // image: require("./image/algods.jpg"),
       description:
         "A Collection of most used algorithms and data structures implemented using JavaScript",
+      demo: "https://zonayedjsv1.netlify.com",
       source: "https://github.com/zonayedpca/AlgoDS.js",
       tools: ["data structure", "algorithm"],
     },
@@ -140,4 +126,4 @@ export const portfolios = {
       tools: ["react", "react router"],
     },
   ],
-}
+};

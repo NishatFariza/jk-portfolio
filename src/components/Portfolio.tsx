@@ -38,6 +38,11 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+      <div className="grid grid-cols-2 gap-6 mt-4">
+        {portfolios[selectedPortfolio].map((portfolio, i) => (
+          <PortfolioName key={i} name={portfolio.name} />
+        ))}
+      </div>
     </div>
   );
 };
