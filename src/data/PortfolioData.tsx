@@ -15,7 +15,7 @@ export const portfolios: PortfoliolListType = {
   Web: [
     {
       type: "featured",
-      name: "DevSonket",
+      name: "Python-Slots-Machine-Project",
       // image: require("./image/devsonket.jpg"),
       description:
         "A Collection of Bengali Cheatsheets for the developers, completely open-source",
@@ -25,7 +25,7 @@ export const portfolios: PortfoliolListType = {
     },
     {
       type: "featured",
-      name: "js.zonayed.me",
+      name: "Python Number Guesser Project",
       // image: require("./image/js.zonayed.me.png"),
       description:
         "Learn Practical use case of JavaScript in your everyday life, entirely in Bengali",
@@ -35,9 +35,9 @@ export const portfolios: PortfoliolListType = {
     },
     {
       type: "regular",
-      name: "Phonebook",
+      name: "Steam Webscraper Python Project",
       description:
-        "A CRUD Application to store your contact phone numbers, everything at one place",
+        "Created a web scraper using Python, BeautifulSoup4, and urllib to extract, compile, and structure data from the Steam Sales webpage into a more parsable format. Formatted 280+ items into organized CSV files to expedite the process of searching for purchases.",
       demo: "https://phonebookpca.netlify.com/",
       source: "https://github.com/zonayedpca/nodeMySQLPhonebook",
       tools: ["express", "mysql", "react"],
