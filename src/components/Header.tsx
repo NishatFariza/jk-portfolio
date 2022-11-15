@@ -2,6 +2,19 @@ import Image from 'next/image';
 import Link from 'next/link'
 import React from 'react'
 
+interface Prop {
+  onTrap: () => void;
+}
+const Hamburger: React.FC<Prop> = ({ onTrap }) => {
+  return (
+    <div onClick={onTrap} className="hamburger hamburger--open md:hidden">
+      <div className="hamburger__line"></div>
+      <div className="hamburger__line"></div>
+      <div className="hamburger__line"></div>
+    </div>
+  );
+};
+
 const MobileMenu = () => {
   return (
     <div className="text-white flex gap-4 text-xl">

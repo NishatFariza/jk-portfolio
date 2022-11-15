@@ -15,3 +15,12 @@ html{
  h1,h2,h3,h4,h5,h6{
     font-family: 'Lato', sans-serif;
  }
+
+ .hamburger {
+    @apply flex flex-col justify-between h-7 w-7 bg-white cursor-pointer;
+
+   &__line {
+       @apply h-[2px] bg-darkGray transform origin-center;
+   }
+   
+ }
