@@ -20,7 +20,7 @@ html{
     @apply flex flex-col justify-between h-7 w-7 bg-white cursor-pointer;
 
    &__line {
-       @apply h-[2px] bg-darkGray transform origin-center;
+    @apply h-[2px] bg-slate-600 transform origin-center;
    }
    
  }
