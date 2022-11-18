@@ -69,9 +69,10 @@ const Header = () => {
       </div>
       <div>
         <Link
+          
           href="/myResume/resume.pdf"
           download={true}
-          className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl flex gap-2"
+          className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl flex gap-2 hover:bg-green-600 transition duration-300"
         >
           <span>Resume</span>
           <svg
