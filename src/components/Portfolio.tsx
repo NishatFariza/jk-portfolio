@@ -19,7 +19,7 @@ const PortfolioName: React.FC<PortfolioProps> = ({
   return (
     <div className="bg-[#1D293A] rounded-md">
       <div className="flex flex-col gap-4 px-4 py-4">
-        <h4>{name}</h4>
+        <h4 className="text-[26px] leading-[29px]">{name}</h4>
         <p>{description}</p>
         <Link className="hover:text-green-600 transition duration-300" href={source}>
           <svg

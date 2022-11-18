@@ -15,7 +15,7 @@ export const portfolios: PortfoliolListType = {
   Web: [
     {
       type: "featured",
-      name: "Python Slots Machine Project",
+      name: "Slots Machine",
       // image: require("./image/devsonket.jpg"),
       description:
         "This program allows the user to type a dollar amount number (1-100) on the screen and have the program take however many lines (1-3), and how much you will put on each number line. It then will give you a random generated dollar number. This uses a basic neural network model.",
@@ -25,7 +25,7 @@ export const portfolios: PortfoliolListType = {
     },
     {
       type: "featured",
-      name: "Python Number Guesser Project",
+      name: "Number Guesser",
       // image: require("./image/js.zonayed.me.png"),
       description:
         "This program allows the user to draw a number on the screen and have the program take a guess of which digit it is. This uses a basic neural network model.",
@@ -35,7 +35,7 @@ export const portfolios: PortfoliolListType = {
     },
     {
       type: "regular",
-      name: "Steam Webscraper Python Project",
+      name: "Steam Webscraper",
       description:
         "Created a web scraper using Python, BeautifulSoup4, and urllib to extract, compile, and structure data from the Steam Sales webpage into a more parsable format. Formatted 280+ items into organized CSV files to expedite the process of searching for purchases.",
       demo: "https://phonebookpca.netlify.com/",
