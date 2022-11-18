@@ -15,23 +15,23 @@ export const portfolios: PortfoliolListType = {
   Web: [
     {
       type: "featured",
-      name: "Python-Slots-Machine-Project",
+      name: "Python Slots Machine Project",
       // image: require("./image/devsonket.jpg"),
       description:
-        "A Collection of Bengali Cheatsheets for the developers, completely open-source",
+        "This program allows the user to type a dollar amount number (1-100) on the screen and have the program take however many lines (1-3), and how much you will put on each number line. It then will give you a random generated dollar number. This uses a basic neural network model.",
       demo: "https://devsonket.com",
-      source: "https://github.com/devsonket/devsonket.github.io",
-      tools: ["gatsby", "json", "travis ci"],
+      source: "https://github.com/jjkrasnick/Python-Slots-Machine-Project",
+      tools: ["javascript", "machine-learning", "neural-network", "python3"],
     },
     {
       type: "featured",
       name: "Python Number Guesser Project",
       // image: require("./image/js.zonayed.me.png"),
       description:
-        "Learn Practical use case of JavaScript in your everyday life, entirely in Bengali",
+        "This program allows the user to draw a number on the screen and have the program take a guess of which digit it is. This uses a basic neural network model.",
       demo: "https://zonayed.js.org",
       source: "https://github.com/zonayedpca/js.zonayed.me",
-      tools: ["gatsby", "utterances", "travis ci"],
+      tools: ["javaScript", "python3"],
     },
     {
       type: "regular",
@@ -40,62 +40,20 @@ export const portfolios: PortfoliolListType = {
         "Created a web scraper using Python, BeautifulSoup4, and urllib to extract, compile, and structure data from the Steam Sales webpage into a more parsable format. Formatted 280+ items into organized CSV files to expedite the process of searching for purchases.",
       demo: "https://phonebookpca.netlify.com/",
       source: "https://github.com/zonayedpca/nodeMySQLPhonebook",
-      tools: ["express", "mysql", "react"],
+      tools: ["python", "machine-learning", "algorithms"],
     },
-    {
-      type: "regular",
-      name: "Holy Quran",
-      description:
-        "Read the Holy Quran with English Transaltion. Simple, basic and clean",
-      demo: "https://zonayedpca.github.io/HolyQuranReact/",
-      source: "https://github.com/zonayedpca/HolyQuranReact",
-      tools: ["react", "redux"],
-    },
-    {
-      type: "regular",
-      name: "To-do App",
-      description:
-        "Just another interactive, nice, beautiful and small to-do application. Does everything!",
-      demo: "https://todoreacthooks.netlify.com/",
-      source: "https://github.com/zonayedpca/todo-react-hooks",
-      tools: ["react", "react hooks"],
-    },
-    {
-      type: "regular",
-      name: "Micro Blog",
-      description:
-        "Entirely works on the client-side, behaves like actual micro blog, everything handled by client",
-      demo: "https://zonayedpca.github.io/react-micro-blog/",
-      source: "https://github.com/zonayedpca/react-micro-blog",
-      tools: ["react", "react router"],
-    },
-    {
-      type: "regular",
-      name: "Mini Blog",
-      description:
-        "Entirely works on the client-side, behaves like actual blog, can even make posts, bookmarks",
-      demo: "https://zonayedpca.github.io/react-mini-blog/",
-      source: "https://github.com/zonayedpca/react-mini-blog",
-      tools: ["react", "react router", "draft js"],
-    },
-    {
-      type: "regular",
-      name: "PWA Blog",
-      description:
-        "A Simple blog powered by WP-Rest API and React, Progressive Web App supported",
-      demo: "https://zonayedjsv1.netlify.com",
-      source: "https://github.com/zonayedpca/old.js.zonayed.me",
-      tools: ["react", "pwa"],
-    },
+    
+   
+   
   ],
   Others: [
     {
       type: "featured",
-      name: "AlgoDS.js",
+      name: "",
       // image: require("./image/algods.jpg"),
       description:
-        "A Collection of most used algorithms and data structures implemented using JavaScript",
-      demo: "https://zonayedjsv1.netlify.com",
+        "COMING Soon",
+      demo: "",
       source: "https://github.com/zonayedpca/AlgoDS.js",
       tools: ["data structure", "algorithm"],
     },
