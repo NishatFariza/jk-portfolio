@@ -19,11 +19,13 @@ const PortfolioName: React.FC<PortfolioProps> = ({
   return (
     <div className="bg-[#1D293A] rounded-md">
       <div className="flex flex-col gap-4 px-4 py-4">
-        <h4 className="text-[26px] leading-[29px]">{name}</h4>
-        <p>{description}</p>
-        <Link className="hover:text-green-600 transition duration-300" href={source}>
+        <h4 className="text-[26px] leading-[29px] text-[#DDDFE2] font-bold">
+          {name}
+        </h4>
+        <p className=" leading[24px] text-[#DDDFE2]">{description}</p>
+        <Link className="" href={source} target={"_blank"}>
           <svg
-            className="w-4 h-4"
+            className="w-6 h-6 hover:fill-green-600 transition duration-300"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -49,8 +51,7 @@ const PortfolioName: React.FC<PortfolioProps> = ({
               />
             </svg>
           </Link> */}
-        <div className="text-sm flex justify-between gap-4">{tools}
-        </div>
+        {/* <div className="text-sm flex justify-between gap-4">{tools}</div> */}
       </div>
     </div>
   );
