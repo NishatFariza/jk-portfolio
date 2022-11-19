@@ -7,7 +7,6 @@ import About from "../components/About";
 import Skill from "../components/Skill";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
-import Blog from "./Blog";
 import Footer from "../components/Footer";
 
 export default function Home() {
