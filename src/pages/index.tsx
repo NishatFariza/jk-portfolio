@@ -11,9 +11,9 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-[#111A28] text-white">
-      <div className="px-28">
-        <Header />
+    <div className="bg-[#060a0f] text-white">
+      <Header />
+      <div className="mx-auto max-w-7xl">
         <Hero />
         <About />
         <Skill />

@@ -4,7 +4,7 @@ import AboutPanel from "./AboutPanel";
 const About = () => {
   return (
     <div id="about" className="w-8/12 mx-auto ">
-      <div className=" text-center ">
+      <div className="text-center ">
         <AboutPanel />
         <p className="leading-loose text-justify">
           I am a second-year computer science student, aspiring Software
@@ -17,17 +17,17 @@ const About = () => {
           developed code. My projects are built from the ground up, from
           planning and designing to solving real-life problems with code.
         </p>
-        <div className="mt-10 flex justify-center gap-4">
+        <div className="flex justify-center gap-4 mt-10">
           <a
             href="/myResume/resume.pdf"
             download={true}
-            className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl "
+            className="px-5 py-3 text-xl text-white bg-green-600 border-none rounded-md "
           >
             Get Resume
           </a>
           <a
             href="#skill"
-            className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl hover:bg-green-600 transition duration-300"
+            className="px-5 py-3 text-xl text-white transition duration-300 border-2 border-green-600 rounded-md hover:bg-green-600"
           >
             My Skill
           </a>

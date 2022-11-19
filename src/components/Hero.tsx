@@ -26,10 +26,10 @@ const Hero = () => {
       <Panel />
       <div
         id="hero"
-        className=" flex flex-col justify-center items-start w-10/12 "
+        className="flex flex-col items-center justify-center w-10/12 lg:items-start"
       >
         <span className="text-[#00cf5d] md:text-2xl mb-2">Hello! I am</span>
-        <div className="md:text-6xl sm:text-3xl text-xl  font-semibold mb-5 font-serif">
+        <div className="mb-5 font-serif text-xl font-semibold md:text-6xl sm:text-3xl">
           <span ref={typedRef}></span>
         </div>
         <div className="my-4">
@@ -47,17 +47,17 @@ const Hero = () => {
               <p className="text-xl">Data Science</p>
             </div>
           </div>
-          <div className="mt-4 flex gap-4">
+          <div className="flex gap-4 mt-4">
             <a
               href="/myResume/resume.pdf"
               target={"_blank"}
-              className="border-none bg-green-600 py-3 px-5 rounded-md text-white text-xl "
+              className="px-5 py-3 text-xl text-white bg-green-600 border-none rounded-md "
             >
               Get Resume
             </a>
             <a
               href="#about"
-              className="border-2 border-green-600 py-3 px-5 rounded-md text-white text-xl hover:bg-green-600 transition duration-300"
+              className="px-5 py-3 text-xl text-white transition duration-300 border-2 border-green-600 rounded-md hover:bg-green-600"
             >
               About Me
             </a>
