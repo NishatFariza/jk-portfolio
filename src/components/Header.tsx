@@ -101,7 +101,7 @@ const Header = () => {
       </button>
 
       {mobileMenuOpen && (
-        <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col gap-3  bg-[#1d293a] top-[110px] p-8 w-[95%] z-50">
+        <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col gap-3 rounded-sm bg-[#1d293a] top-[110px] p-8 w-[95%] z-50">
           {menus.map((menu) => (
             <Link key={menu.href} href={menu.href}>
               {menu.label}

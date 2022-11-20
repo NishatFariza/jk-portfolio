@@ -1,6 +1,18 @@
 import React from "react";
 import AboutPanel from "./AboutPanel";
 
+
+const MobileAbout = () => {
+  <div className="flex items-center justify-center mb-12">
+    <div className="flex  justify-center items-center gap-1">
+      <p className="text-[#DCDDDF] text-xl font-semibold bg-[#1D293A] py-1 px-2 rounded-md uppercase">
+        About Me
+      </p>
+      <div className="w-[60px] h-1 bg-[#DCDDDF] rounded"></div>
+    </div>
+  </div>;
+}
+
 const About = () => {
   return (
     <div id="about" className="w-8/12 mx-auto ">
