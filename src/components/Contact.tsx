@@ -5,10 +5,11 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex py-28 justify-between items-center gap-10"
+      className="flex flex-col md:flex-row md:py-28 py-14 justify-between items-center gap-10"
     >
-      <div className="w-7/12">
-        <p className="mb-8 leading-loose">
+      <div className="md:w-7/12">
+        <p className="mb-8 md:leading-loose text-sm md:text-base;
+        ">
           I am thrilled about opportunities and challenges that allow me to
           utilize my skills so I can help turn data and numbers into easily
           quantifiable metrics. I did love to be able to use my insights to help
@@ -19,7 +20,7 @@ const Contact = () => {
           Contact Me
         </button>
       </div>
-      <div className="w-4/12">
+      <div className="md:w-4/12 w-full flex flex-col justify-start">
         <div className="mb-3">
           <h5 className="text-2xl text-stone-200 font-semibold ">Email</h5>
           <p className="text-slate-400">

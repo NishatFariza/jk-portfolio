@@ -15,7 +15,7 @@ const MobileAbout = () => {
 
 const About = () => {
   return (
-    <div id="about" className="w-8/12 mx-auto ">
+    <div id="about" className="md:w-8/12 mx-auto ">
       <div className="text-center ">
         <AboutPanel />
         <p className="leading-loose text-justify">

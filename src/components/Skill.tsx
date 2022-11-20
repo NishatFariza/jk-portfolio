@@ -27,7 +27,7 @@ const Skill  = () => {
     <div id="skill" className="py-20">
       <SkillPanel />
       <div className="">
-        <div className="flex gap-3 mt-7">
+        <div className="flex flex-col md:flex-row gap-3 mt-7">
           {Object.keys(skills).map((skillTopic) => (
             <button
               key={skillTopic}
@@ -42,9 +42,9 @@ const Skill  = () => {
             </button>
           ))}
         </div>
-        <div className="grid grid-cols-3 gap-6 mt-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-4">
           {skills[selectedSkill].map((skill, i) => (
-            <SkillName key={i} name={ skill.name} />
+            <SkillName key={i} name={skill.name} />
           ))}
         </div>
       </div>

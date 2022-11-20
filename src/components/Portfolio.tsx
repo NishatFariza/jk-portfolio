@@ -62,7 +62,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <PortfolioPanel />
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
         <div className="flex gap-3 mt-7">
           {Object.keys(portfolios).map((portfolioTopic) => (
             <button
@@ -79,7 +79,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-6 mt-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-4">
         {portfolios[selectedPortfolio].map((portfolio, i) => (
           <PortfolioName
             key={i}

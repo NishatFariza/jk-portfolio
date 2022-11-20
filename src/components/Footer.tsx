@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-[#1D293A]">
-      <div className="h-[120px] max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center py-3 md:py-0">
+      <div className="h-[120px] max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center py-3 lg:py-0">
         <div>
           <button className="bg-[#111A28]  p-2 border-b-2  border-green-600 rounded-md mr-3">
             Thanks
