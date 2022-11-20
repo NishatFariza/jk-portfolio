@@ -62,7 +62,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <PortfolioPanel />
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
+      <div className="grid lg:grid-cols-3 grid-cols-2 gap-10">
         <div className="flex gap-3 mt-7">
           {Object.keys(portfolios).map((portfolioTopic) => (
             <button

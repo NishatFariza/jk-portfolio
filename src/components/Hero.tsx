@@ -22,21 +22,21 @@ const Hero = () => {
   });
 
   return (
-    <div className="relative flex justify-center h-[calc(100vh-120px)] ">
+    <div className="relative flex flex-col md:flex-row justify-center h-[calc(100vh-120px)] ">
       <Panel />
       <div
         id="hero"
         className="flex flex-col items-center justify-center w-10/12 lg:items-start"
       >
         <span className="text-[#00cf5d] md:text-2xl mb-2">Hello! I am</span>
-        <div className="mb-5 font-serif text-xl font-semibold md:text-6xl sm:text-3xl">
+        <div className="mb-5 font-serif text-xl font-semibold md:text-5xl sm:text-4xl lg:text-6xl text-center md:text-start">
           <span ref={typedRef}></span>
         </div>
-        <div className="my-4">
-          <p className="text-2xl font-semibold text-[#00cf5d] mb-2">
+        <div className="my-4 flex flex-col justify-center md:justify-start">
+          <p className="md:text-2xl text-xl text-center md:text-start font-semibold text-[#00cf5d] mb-2">
             Full Stack Engineer
           </p>
-          <div className="flex gap-3">
+          <div className="flex flex-col md:flex-row gap-3">
             <p className="text-xl">Software Engineer</p>
             <div className="flex items-center gap-2">
               <div className="w-[10px] h-[10px] rounded-full bg-green-600"></div>

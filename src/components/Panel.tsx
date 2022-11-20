@@ -3,7 +3,7 @@ import React from "react";
 
 const Panel = () => {
   return (
-    <div className="flex justify-start absolute top-[20%] left-0">
+    <div className="md:flex justify-start absolute top-[20%] left-0 hidden">
       <div className="flex flex-col justify-center items-center gap-3 w-4/12">
         <Link href="https://github.com/jjkrasnick">
           <svg

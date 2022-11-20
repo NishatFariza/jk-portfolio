@@ -30,7 +30,7 @@ export const portfolios: PortfoliolListType = {
       description:
         "This program allows the user to draw a number on the screen and have the program take a guess of which digit it is. This uses a basic neural network model.",
       demo: "https://zonayed.js.org",
-      source: "https://github.com/zonayedpca/js.zonayed.me",
+      source: "https://github.com/jjkrasnick/Python-Number-Guesser-Project",
       tools: ["javaScript", "python3"],
     },
     {
@@ -39,49 +39,19 @@ export const portfolios: PortfoliolListType = {
       description:
         "Created a web scraper using Python, BeautifulSoup4, and urllib to extract, compile, and structure data from the Steam Sales webpage into a more parsable format. Formatted 280+ items into organized CSV files to expedite the process of searching for purchases.",
       demo: "https://phonebookpca.netlify.com/",
-      source: "https://github.com/zonayedpca/nodeMySQLPhonebook",
+      source: "https://github.com/jjkrasnick/Steam-Webscraper-Python-Project",
       tools: ["python", "machine-learning", "algorithms"],
     },
-    
-   
-   
   ],
   Others: [
     {
       type: "featured",
       name: "",
       // image: require("./image/algods.jpg"),
-      description:
-        "COMING Soon",
+      description: "COMING Soon",
       demo: "",
-      source: "https://github.com/zonayedpca/AlgoDS.js",
+      source: "https://github.com/jjkrasnick/",
       tools: ["data structure", "algorithm"],
-    },
-    {
-      type: "regular",
-      name: "React Native Welcome",
-      description:
-        "A helper package for React Native to welcome user with beautiful and interactive UI",
-      demo: "https://www.npmjs.com/package/react-native-welcome",
-      source: "https://github.com/zonayedpca/react-native-welcome",
-      tools: ["npm package", "react native"],
-    },
-    {
-      type: "regular",
-      name: "React Web Workers",
-      description: "A Small helper package for React to work with web workers",
-      demo: "https://www.npmjs.com/package/react-web-workers",
-      source: "https://github.com/zonayedpca/react-web-workers",
-      tools: ["npm package", "react"],
-    },
-    {
-      type: "regular",
-      name: "React Poll",
-      description:
-        "Entirely works on client-side, behave like actual poll application",
-      demo: "https://zonayedpca.github.io/react-fake-poll/",
-      source: "https://github.com/zonayedpca/react-fake-poll",
-      tools: ["react", "react router"],
     },
   ],
 };
