@@ -51,7 +51,7 @@ const Hero = () => {
             <a
               href="/myResume/resume.pdf"
               target={"_blank"}
-              className="px-5 py-3 text-xl text-white bg-green-600 border-none rounded-md "
+              className="md:px-5 md:py-3 text-xl text-white bg-green-600 border-none rounded-md "
             >
               Get Resume
             </a>
