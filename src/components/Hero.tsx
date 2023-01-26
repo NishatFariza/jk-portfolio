@@ -55,13 +55,13 @@ const Hero = () => {
             <a
               href="/myResume/resume.pdf"
               target={"_blank"}
-              className="px-5 py-3 text-xl text-white bg-green-600 border-none rounded-md "
+              className="px-5 py-3 text-xl text-center text-white bg-green-600 border-none rounded-md"
             >
               Get Resume
             </a>
             <a
               href="#about"
-              className="px-5 py-3 text-xl text-white transition duration-300 border-2 border-green-600 rounded-md hover:bg-green-600"
+              className="px-5 py-3 text-xl text-center text-white transition duration-300 border-2 border-green-600 rounded-md hover:bg-green-600"
             >
               About Me
             </a>
