@@ -29,11 +29,11 @@ const Hero = () => {
         className="flex flex-col items-center justify-center w-10/12 lg:items-start"
       >
         <span className="text-[#00cf5d] md:text-2xl mb-2">Hello! I am</span>
-        <div className="md:mb-5 mb-3 font-serif text-2xl font-semibold md:text-5xl sm:text-4xl lg:text-6xl text-center md:text-start">
+        <div className="md:mb-5 mb-3 font-serif font-semibold md:text-5xl sm:text-4xl lg:text-6xl text-3xl text-center md:text-start">
           <span ref={typedRef}></span>
         </div>
         <div className="md:my-4 flex flex-col justify-center md:justify-start">
-          <p className="md:text-2xl text-md text-center md:text-start font-semibold text-[#00cf5d] mb-2">
+          <p className="md:text-2xl text-xl text-center md:text-start font-semibold text-[#00cf5d] mb-2">
             Full Stack Engineer
           </p>
           <div className="flex flex-col justify-start mt-6 md:mt-none gap-3">
