@@ -39,7 +39,7 @@ const Footer = () => {
           </p>
           <p className="flex gap-1">
             <a
-              href="https://github.com/NishatFariza/jk-portfolio"
+              href="https://github.com/jjkrasnick"
               target="_blank"
               rel="noreferrer"
             >
