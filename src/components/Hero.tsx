@@ -51,7 +51,7 @@ const Hero = () => {
               <p className="md:text-xl">Data Science</p>
             </div>
           </div>
-          <div className="flex gap-4 mt-4 flex-col">
+          <div className="flex gap-4 mt-4 flex-col md:flex-row">
             <a
               href="/myResume/resume.pdf"
               target={"_blank"}
