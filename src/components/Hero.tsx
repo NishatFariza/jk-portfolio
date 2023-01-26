@@ -29,29 +29,33 @@ const Hero = () => {
         className="flex flex-col items-center justify-center w-10/12 lg:items-start"
       >
         <span className="text-[#00cf5d] md:text-2xl mb-2">Hello! I am</span>
-        <div className="mb-5 font-serif text-xl font-semibold md:text-5xl sm:text-4xl lg:text-6xl text-center md:text-start">
+        <div className="md:mb-5 mb-3 font-serif text-2xl font-semibold md:text-5xl sm:text-4xl lg:text-6xl text-center md:text-start">
           <span ref={typedRef}></span>
         </div>
-        <div className="my-4 flex flex-col justify-center md:justify-start">
-          <p className="md:text-2xl text-xl text-center md:text-start font-semibold text-[#00cf5d] mb-2">
+        <div className="md:my-4 flex flex-col justify-center md:justify-start">
+          <p className="md:text-2xl text-md text-center md:text-start font-semibold text-[#00cf5d] mb-2">
             Full Stack Engineer
           </p>
-          <div className="flex flex-col md:flex-row gap-3">
-            <p className="text-xl">Software Engineer</p>
-            <div className="flex items-center gap-2">
-              <div className="w-[10px] h-[10px] rounded-full bg-green-600"></div>
-              <p className="text-xl">Machine Learning</p>
+          <div className="flex flex-col justify-start mt-6 md:mt-none gap-3">
+            <div className="flex items-center gap-2 justify-center md:justify-start">
+              <div className="w-[10px] h-[10px] rounded-full bg-green-600 md:hidden block"></div>
+              <p className="md:text-xl md:hidden block">Software Engineer</p>
             </div>
-            <div className="flex items-center gap-2">
+            <p className="md:text-xl hidden md:block">Software Engineer</p>
+            <div className="flex items-center gap-2 justify-center md:justify-start">
               <div className="w-[10px] h-[10px] rounded-full bg-green-600"></div>
-              <p className="text-xl">Data Science</p>
+              <p className="md:text-xl">Machine Learning</p>
+            </div>
+            <div className="flex items-center gap-2 justify-center md:justify-start">
+              <div className="w-[10px] h-[10px] rounded-full bg-green-600"></div>
+              <p className="md:text-xl">Data Science</p>
             </div>
           </div>
-          <div className="flex gap-4 mt-4">
+          <div className="flex gap-4 mt-4 flex-col">
             <a
               href="/myResume/resume.pdf"
               target={"_blank"}
-              className="md:px-5 md:py-3 text-xl text-white bg-green-600 border-none rounded-md "
+              className="px-5 py-3 text-xl text-white bg-green-600 border-none rounded-md "
             >
               Get Resume
             </a>
